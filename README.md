@@ -1,2 +1,12 @@
 # llm-repo
- RAG with llama-3.1 as it's driver used for conversation, and able to do function caling (currently can only get current weather of any location.) It is also able to utilize TTS  which means every answer has a voice reply.
+
+A RAG agent that uses Ollama which is running a Local LLM, the one that we use in this as driver is llama-3.1, specifically llama3-groq-tool-use variant of the llama-3.1 .
+It has following features:
+ * Since it uses llama3-groq-tool-use variant it is verry good at performing [function calling](https://platform.openai.com/docs/guides/function-calling), allowing it to connect to internet and perform specific task for you.
+ * It as of right now able to utilize funcion calling for fetching current weather condition of a location. It connects to [Open Meteo](https://open-meteo.com/).
+
+Future Scope:
+ * Add more **functions** in the arsenal, allowing it to perform task more adequate for a **Personal Assistant AI**.
+ * Give it a beautiful front-end with help of Flet a UI framework in python.
+ * Package it into a application and a self extracting package.
+ * Optimize it for performance.
