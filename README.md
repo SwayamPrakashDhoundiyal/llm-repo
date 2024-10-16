@@ -8,6 +8,6 @@ It has following features:
 
 Future Scope:
  * Add more **functions** in the arsenal, allowing it to perform task more adequate for a **Personal Assistant AI**.
- * Give it a beautiful front-end with help of Flet a UI framework in python.
+ * Give it a beautiful front-end with help of [Flet](https://github.com/flet-dev/flet) a UI framework in python.
  * Package it into a application and a self extracting package.
  * Optimize it for performance.
